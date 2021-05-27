@@ -287,7 +287,7 @@ class PhpIPAM(BaseBackend):
                       read_ip_addresses=True,
                       read_prefixes=True,
                       read_vlans=True,
-                      read_vrfs=True):
+                      read_vrfs=False):
         '''
         Read a Database object from the API backend.
         '''
